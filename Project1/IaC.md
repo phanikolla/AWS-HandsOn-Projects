@@ -1,7 +1,6 @@
-```markdown
 # Infrastructure as Code (IaC)
 
-Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware configuration or interactive configuration tools. Below is a detailed overview of IaC tools, their pros and cons, and the best cloud-agnostic tool.
+Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware configuration or interactive configuration tools. This document provides an overview of popular IaC tools, their pros and cons, and recommendations for the best cloud-agnostic tool.
 
 ---
 
@@ -72,46 +71,35 @@ Infrastructure as Code (IaC) is the practice of managing and provisioning infras
 ## **Pros and Cons of IaC**
 
 ### **Pros**
-1. **Automation and Speed**: Automates repetitive tasks, enabling faster provisioning of infrastructure [1][7].
-2. **Consistency and Standardization**: Reduces human error and ensures consistent environments [5][7].
-3. **Scalability**: Easily scale infrastructure using code templates [1][9].
-4. **Cost Efficiency**: Reduces operational overhead by automating processes [7].
-5. **Version Control**: Infrastructure configurations can be versioned and audited [9].
-6. **Improved Security**: Tracks changes and enforces compliance standards [1].
+1. **Automation and Speed**: Automates repetitive tasks, enabling faster provisioning of infrastructure.
+2. **Consistency and Standardization**: Reduces human error and ensures consistent environments.
+3. **Scalability**: Easily scale infrastructure using code templates.
+4. **Cost Efficiency**: Reduces operational overhead by automating processes.
+5. **Version Control**: Infrastructure configurations can be versioned and audited.
+6. **Improved Security**: Tracks changes and enforces compliance standards.
 
 ### **Cons**
-1. **Complexity in Large Teams**: Managing IaC setups across multiple teams can become challenging [9].
-2. **State Management Issues**: Tools like Terraform require careful handling of state files [4].
-3. **Learning Curve**: Some tools have a steep learning curve, especially for non-programmers [4][6].
-4. **Cloud-Specific Limitations**: Some tools (e.g., CloudFormation) are tied to specific cloud providers [10].
+1. **Complexity in Large Teams**: Managing IaC setups across multiple teams can become challenging.
+2. **State Management Issues**: Tools like Terraform require careful handling of state files.
+3. **Learning Curve**: Some tools have a steep learning curve, especially for non-programmers.
+4. **Cloud-Specific Limitations**: Some tools (e.g., CloudFormation) are tied to specific cloud providers.
 
 ---
 
 ## **Best Cloud-Agnostic Tool**
 
 ### **Terraform**
-Terraform is widely regarded as the best cloud-agnostic IaC tool due to its robust multi-cloud support, extensive provider ecosystem, and modular architecture. It allows teams to manage resources across AWS, Azure, Google Cloud, and on-premises environments with a consistent workflow [3][4][8].
+Terraform is widely regarded as the best cloud-agnostic IaC tool due to its robust multi-cloud support, extensive provider ecosystem, and modular architecture. It allows teams to manage resources across AWS, Azure, Google Cloud, and on-premises environments with a consistent workflow.
 
 ### Why Terraform?
-- It supports any cloud provider through its provider plugins, making it highly versatile [3][4].
-- Its declarative syntax ensures simplicity while maintaining powerful capabilities [6].
-- The active community ensures continuous improvements and a wealth of shared modules/templates [4].
+- It supports any cloud provider through its provider plugins, making it highly versatile.
+- Its declarative syntax ensures simplicity while maintaining powerful capabilities.
+- The active community ensures continuous improvements and a wealth of shared modules/templates.
 
 ---
 
 ## Conclusion
 
-When choosing an IaC tool, consider your team’s expertise, the complexity of your infrastructure, and whether you need multi-cloud support. For flexibility and cloud agnosticism, Terraform is the most recommended choice. However, if you prefer using familiar programming languages or are deeply integrated into Kubernetes workflows, Pulumi or Crossplane might be better suited for your needs.
-```
+When selecting an IaC tool, consider your team’s expertise, the complexity of your infrastructure, and whether you need multi-cloud support. For flexibility and cloud agnosticism, Terraform is the most recommended choice. However, if you prefer using familiar programming languages or are deeply integrated into Kubernetes workflows, Pulumi or Crossplane might be better suited for your needs.
 
-Sources
-[1] Benefits and Drawbacks of Infrastructure as Code (IaC) https://www.enterprisenetworkingplanet.com/data-center/infrastructure-as-code/
-[2] Infrastructure as Code (IaC): Comparing the Tools https://techcommunity.microsoft.com/blog/itopstalkblog/infrastructure-as-code-iac-comparing-the-tools/3205045
-[3] 10 Best Cloud Infrastructure Automation Tools in 2024 - Facets Blog https://blog.facets.cloud/cloud-infrastructure-automation-tools/
-[4] 11 Tools for Cloud Provisioning and Infrastructure Automation https://www.techtarget.com/searchdatacenter/feature/7-must-have-cloud-infrastructure-automation-tools
-[5] Infrastructure as Code : Best Practices, Benefits & Examples - Spacelift https://spacelift.io/blog/infrastructure-as-code
-[6] The Ultimate Guide to Top Infrastructure as Code Tools in 2024 https://blog.brainboard.co/the-ultimate-guide-to-top-infrastructure-as-code-tools-in-2024-980915ebe9ad?gi=9ff2f59e9e60
-[7] Infrastructure as Code Working and Benefits - Spiceworks https://www.spiceworks.com/tech/cloud/articles/what-is-infrastructure-as-code/
-[8] 4 Types of IaC Tools and 10 Tools You Should Know | Codefresh https://codefresh.io/learn/infrastructure-as-code/4-types-of-iac-tools-and-10-tools-you-should-know/
-[9] Infrastructure as Code: The Good, the Bad and the Future | Humanitec https://humanitec.com/blog/infrastructure-as-code-the-good-the-bad-and-the-future
-[10] How to Choose the Right IaC Tool – AWS CDK, CloudFormation ... https://www.freecodecamp.org/news/comparing-iac-tools-aws-cdk-cloudformation-terraform/
+---
