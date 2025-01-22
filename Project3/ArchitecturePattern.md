@@ -1,5 +1,7 @@
 # Deploying a React-Based Single-Page Application to Amazon S3 and CloudFront
 
+## This is a reference from AWS Prescriptive Guidance Documentation : https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html
+
 ## Overview
 
 This architecture pattern focuses on deploying a React-based Single-Page Application (SPA) using **Amazon S3** for static asset storage and **Amazon CloudFront** for content delivery. It incorporates **Amazon API Gateway** for backend REST APIs, **AWS CloudFormation** for Infrastructure as Code (IaC), and additional AWS services like **CloudWatch**, **CloudTrail**, **IAM**, and **Route 53** for monitoring, security, and DNS management.
