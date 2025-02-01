@@ -7,4 +7,4 @@ export const appConfig = {
   title: "My Recipe Sharing App",
   iconFileName: "ch3_link.png",
 };
-export const API_URL = "https://api.cloudprojects.site";
+export const API_URL = "https://example.cloudprojects.site";
